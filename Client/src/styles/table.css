@@ -1,0 +1,35 @@
+.containerBoos {
+    width: 100%;
+    padding: 0;margin: 0;
+    display: flex;justify-content: center;align-items: center;
+    flex-direction: column-reverse;
+    gap: 1em;
+}
+
+.tableBoos {
+    width: 90% !important;
+    margin: 0 3em;
+}
+
+.thead{
+    border-bottom: 2px solid #000;
+}
+
+.linkBoos {
+    color: rgb(59, 59, 59);
+    text-decoration: none;
+}
+
+.linkBoos:hover {
+    color: rgb(59, 59, 59);
+    text-decoration: underline;
+}
+
+.buttonBoos {
+    border: none;
+    background-color: rgb(61, 61, 61);
+    border-radius: 5px;
+    box-shadow: -1px 1px 4px 2px rgb(105, 105, 105);
+    padding: .5em 2em;
+    color: rgb(255, 255, 255);
+}
